@@ -1,0 +1,24 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# meuExemplo
+
+```{r}
+tempo <- Sys.time()
+data <- format(tempo, "%d/%m/%Y")
+hora <- format(tempo, "%H:%M e %S segundos")
+```
+
+Esse rmarkdown foi gerado no dia `r data` às `r hora`!!
+
+![](https://cataas.com/cat)
