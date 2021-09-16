@@ -21,4 +21,7 @@ hora <- format(tempo, "%H:%M e %S segundos")
 
 Esse rmarkdown foi gerado no dia `r data` às `r hora`!!
 
-![](https://cataas.com/cat)
+```{r}
+knitr::include_graphics("https://cataas.com/cat")
+```
+
